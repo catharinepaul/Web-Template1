@@ -1,0 +1,60 @@
+body{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.405),rgba(0, 0, 0, 0.555)),url(dawn4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+
+p{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.514),rgba(255, 255, 255, 0.514));
+    text-align:center;
+    color:black;
+    margin-top:0.5%;
+    line-height:30px ;
+    font-size:20px;
+    font-weight:bold;
+    font-family:Georgia;
+    
+}
+.Header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 65%;
+}
+
+#a{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.292),rgba(0, 0, 0, 0.658));
+    text-align:center;
+    color:whitesmoke;
+    margin-top:22%;
+    margin-right: 37%;
+    margin-left: 37%;
+    margin-bottom: 1%;
+    line-height:50px ;
+    font-size:50px;
+    font-weight:bold;
+    font-family:Georgia; 
+    border:solid;
+   
+}
+
+.Header > .item {
+    
+    border:solid white;
+    border-width: 1px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.292),rgba(0, 0, 0, 0.658));
+   
+}
+.Header > .item > a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    padding:15px ;
+    font-size:9px;
+    font-family:'Times New Roman', Times, serif;
+    justify-content: center;
+    text-transform: uppercase;
+}
